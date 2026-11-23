@@ -1,0 +1,33 @@
+/* Homebrewery V3: вставить во вкладку Style */
+.page {
+  background: #1b1918;
+  color: #c3bcb3;
+  font-family: Georgia, 'Times New Roman', serif;
+}
+.page h1, .page h2, .page h3 {
+  color: #b18a54;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-variant: small-caps;
+  font-weight: normal;
+}
+.page h4 {
+  color: #ddd5cc;
+  background: #100f0e;
+  border-left: 1px solid #958b7b;
+  border-top: 1px solid #766e62;
+  padding: 3px 8px;
+}
+.page strong { color: #e2dcd4; }
+.page table { color: #c7b38d; }
+.page table thead { background: #080808; color: #bda474; }
+.page table tbody tr:nth-child(odd) { background: #0e0d0c; }
+.page table tbody tr:nth-child(even) { background: #292521; }
+.page blockquote {
+  background: #121110;
+  color: #c8c0b5;
+  border: 1px solid #82766a;
+  box-shadow: none;
+  padding: 10px 14px;
+}
+.page hr { border: 0; border-top: 1px solid #9c8058; }
+.page .pageNumber, .page .footnote { color: #c3bcb3; }
